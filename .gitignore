@@ -1,0 +1,73 @@
+# IDE & Editor
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.env.local
+
+# Dependencies
+/vendor/
+composer.lock
+
+# CodeIgniter
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/index.html
+
+# Database
+DATABASE FILE/
+*.sql
+posci.sql
+
+# Configuration (with credentials)
+# Note: Only ignore if using .env variables
+# application/config/database.php
+# application/config/config.php
+
+# User uploads and temporary files
+public/uploads/*
+!public/uploads/index.html
+uploads/*
+!uploads/index.html
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# PHP
+*.phtml
+
+# Local environment
+.env
+.env.local
+.env.*.local
+
+# Session files
+session_*
+
+# Cache files
+*.cache
+
+# Build tools
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Project specific
+01\ LOGIN\ DETAILS\ \&\ PROJECT\ INFO.txt
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
